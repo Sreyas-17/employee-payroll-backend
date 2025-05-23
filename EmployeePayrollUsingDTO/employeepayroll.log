@@ -1,0 +1,143 @@
+2025-05-02 16:38:06 INFO  c.b.e.EmployeePayrollUsingDtoApplicationTests - Starting EmployeePayrollUsingDtoApplicationTests using Java 23.0.2 with PID 2992 (started by sreya in C:\Users\sreya\IdeaProjects\EmployeePayrollUsingDTO)
+2025-05-02 16:38:06 DEBUG c.b.e.EmployeePayrollUsingDtoApplicationTests - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-02 16:38:06 INFO  c.b.e.EmployeePayrollUsingDtoApplicationTests - The following 1 profile is active: "dev"
+2025-05-02 16:38:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 16:38:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-05-02 16:38:08 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 16:38:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-02 16:38:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 16:38:09 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 16:38:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-02 16:38:09 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@258a8584
+2025-05-02 16:38:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-02 16:38:09 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-02 16:38:09 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-02 16:38:09 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-02 16:38:10 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 16:38:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 16:38:11 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-02 16:38:11 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 16:38:12 INFO  c.b.e.EmployeePayrollUsingDtoApplicationTests - Started EmployeePayrollUsingDtoApplicationTests in 6.299 seconds (process running for 7.763)
+2025-05-02 16:38:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 16:38:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-02 16:38:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-02 16:38:29 INFO  c.b.e.EmployeePayrollUsingDtoApplication - Starting EmployeePayrollUsingDtoApplication using Java 23.0.2 with PID 18912 (C:\Users\sreya\IdeaProjects\EmployeePayrollUsingDTO\target\classes started by sreya in C:\Users\sreya\IdeaProjects\EmployeePayrollUsingDTO)
+2025-05-02 16:38:29 DEBUG c.b.e.EmployeePayrollUsingDtoApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-02 16:38:29 INFO  c.b.e.EmployeePayrollUsingDtoApplication - The following 1 profile is active: "dev"
+2025-05-02 16:38:29 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 16:38:29 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 16:38:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 16:38:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-05-02 16:38:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 16:38:30 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 16:38:30 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 16:38:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 16:38:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1540 ms
+2025-05-02 16:38:30 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 16:38:30 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-02 16:38:30 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 16:38:31 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 16:38:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-02 16:38:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ef770e2
+2025-05-02 16:38:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-02 16:38:31 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-02 16:38:31 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-02 16:38:31 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-02 16:38:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 16:38:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 16:38:32 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-02 16:38:33 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 16:38:33 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/employee_payroll_db'
+2025-05-02 16:38:33 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 16:38:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 16:38:33 INFO  c.b.e.EmployeePayrollUsingDtoApplication - Started EmployeePayrollUsingDtoApplication in 4.742 seconds (process running for 5.148)
+2025-05-02 16:38:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 16:38:52 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-02 16:38:52 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-02 16:38:52 INFO  c.b.e.EmployeeControllerDTO - GET request for all employees
+2025-05-02 16:38:52 INFO  c.b.e.EmployeeServiceDTO - Fetching all employees
+2025-05-02 16:39:13 ERROR c.b.e.GlobalExceptionHandler - Unexpected error: Request method 'DELETE' is not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:267)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:509)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1284)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-05-02 16:39:13 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-05-02 16:39:46 INFO  c.b.e.EmployeeControllerDTO - DELETE request for employee id: 3
+2025-05-02 16:39:46 INFO  c.b.e.EmployeeServiceDTO - Deleting employee with id: 3
+2025-05-02 16:39:47 DEBUG c.b.e.EmployeeServiceDTO - Deleted employee with id: 3
+2025-05-02 16:39:55 INFO  c.b.e.EmployeeControllerDTO - GET request for all employees
+2025-05-02 16:39:55 INFO  c.b.e.EmployeeServiceDTO - Fetching all employees
+2025-05-02 16:40:06 ERROR c.b.e.GlobalExceptionHandler - Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO) with 2 errors: [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]] [Field error in object 'employeeDTO' on field 'name': rejected value [null]; codes [NotNull.employeeDTO.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name]]; default message [Name is required]]
+2025-05-02 16:40:06 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO) with 2 errors: [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]] [Field error in object 'employeeDTO' on field 'name': rejected value [null]; codes [NotNull.employeeDTO.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name]]; default message [Name is required]] ]
+2025-05-02 16:40:37 ERROR c.b.e.GlobalExceptionHandler - Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]]
+2025-05-02 16:40:37 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]] ]
+2025-05-02 16:41:50 ERROR c.b.e.GlobalExceptionHandler - Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]]
+2025-05-02 16:41:50 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'salary': rejected value [5000.0]; codes [Min.employeeDTO.salary,Min.salary,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.salary,salary]; arguments []; default message [salary],10000]; default message [Salary should be at least 10000]] ]
+2025-05-02 16:43:08 ERROR c.b.e.GlobalExceptionHandler - Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'name': rejected value [John123]; codes [Pattern.employeeDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@4f494c85,[A-Za-z ]{2,50}]; default message [Name must be 2-50 characters and contain only letters and spaces]]
+2025-05-02 16:43:08 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollusingdto.EmployeeDTO> com.bridgelabz.employeepayrollusingdto.EmployeeController.createEmployee(com.bridgelabz.employeepayrollusingdto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'name': rejected value [John123]; codes [Pattern.employeeDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@4f494c85,[A-Za-z ]{2,50}]; default message [Name must be 2-50 characters and contain only letters and spaces]] ]
+2025-05-02 16:44:11 INFO  c.b.e.EmployeeControllerDTO - POST request to create employee: EmployeeDTO(id=null, name=John, salary=50000.0)
+2025-05-02 16:44:11 INFO  c.b.e.EmployeeServiceDTO - Creating employee: EmployeeDTO(id=null, name=John, salary=50000.0)
+2025-05-02 16:44:11 DEBUG c.b.e.EmployeeServiceDTO - Saved employee: EmployeeDetails(id=4, name=John, salary=50000.0)
+2025-05-02 16:44:45 INFO  c.b.e.EmployeeControllerDTO - PUT request to update employee id: 4
+2025-05-02 16:44:45 INFO  c.b.e.EmployeeServiceDTO - Updating employee with id: 4
+2025-05-02 16:44:45 DEBUG c.b.e.EmployeeServiceDTO - Updated employee: EmployeeDetails(id=4, name=Jack, salary=50000.0)
+2025-05-02 16:44:50 INFO  c.b.e.EmployeeControllerDTO - GET request for all employees
+2025-05-02 16:44:50 INFO  c.b.e.EmployeeServiceDTO - Fetching all employees
